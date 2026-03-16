@@ -1,6 +1,6 @@
-# 😴 Facial State Classification using LSTM
+#  Facial State Classification using LSTM
 
-## 📌 Overview
+##  Overview
 
 This project presents a functional system for automatic classification of human facial states based on real-time video analysis.
 
@@ -14,7 +14,7 @@ The solution focuses on temporal facial dynamics rather than static image classi
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 Instead of processing individual frames independently, the system uses a custom **LSTM (Long Short-Term Memory)** neural network to capture sequential facial changes over time.
 
@@ -38,7 +38,7 @@ The architecture includes three primary learning components:
 
 ---
 
-## 🔍 Features & Methodology
+##  Features & Methodology
 
 To reduce computational complexity, the system does not process raw pixel data.
 
@@ -66,7 +66,7 @@ This reduces accidental misclassifications and increases reliability.
 
 ---
 
-## 📊 Performance
+##  Performance
 
 Despite using a limited and specialized dataset, the model achieves approximately:
 
@@ -76,7 +76,7 @@ This demonstrates that meaningful results can be achieved even with relatively s
 
 ---
 
-## 🔒 Data Privacy & Availability
+##  Data Privacy & Availability
 
 The dataset consists of recordings from **17 individuals**.
 
@@ -84,14 +84,14 @@ Most recordings were collected manually from volunteers who were personally assu
 
 For this reason:
 
-- ❌ Raw dataset is not included  
-- ❌ Training videos are not included  
+-  Raw dataset is not included  
+-  Training videos are not included  
 
 The repository provides the full methodology and custom model architecture instead.
 
 ---
 
-## 🚀 Key Highlights
+##  Key Highlights
 
 - Real-time facial state classification  
 - Temporal modeling using LSTM  
@@ -101,6 +101,6 @@ The repository provides the full methodology and custom model architecture inste
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Yauheniya Drozd**
